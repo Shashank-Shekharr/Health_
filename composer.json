@@ -90,4 +90,20 @@
             "@php artisan key:generate --ansi"
         ]
     }
+
+
+"extra": {
+
+        "laravel": {
+
+            "dont-discover": [
+
+                "barryvdh/laravel-ide-helper"
+
+            ]
+
+        }
+
+    }
 }
+
